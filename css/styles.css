@@ -8,7 +8,6 @@
 body {
   background: #ffffff;
   color: var(--primary-text-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -17,12 +16,22 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  padding: 94px 215px 94px 215px;
+}
+
 .web-blue {
   color: var(--accent-color);
 }
 
 .list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* logo */
@@ -34,16 +43,40 @@ a {
   line-height: 1.19;
   text-decoration: none;
   cursor: pointer;
+  margin-right: 93px;
+}
+
+.page-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-address {
+  display: flex;
+}
+
+.aunt-address {
+  margin-left: 50px;
 }
 
 /* page header */
 
 .page-header {
   background: #ffffff;
-  padding: 60px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-right: 215px;
+  padding-bottom: 25px;
+  padding-left: 215px;
 }
 
 /* nav */
+.site-nav {
+  display: flex;
+}
+
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -63,6 +96,10 @@ a {
 .site-nav .link.current {
   color: var(--accent-color);
   cursor: pointer;
+}
+
+.site-type {
+  margin: 0px 50px 0px 50px;
 }
 
 /* address */
@@ -90,12 +127,26 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 .hero {
   background: #2f303a;
   padding: 200px 0px 200px 0px;
   text-align: center;
+}
+
+.services {
+  padding: 94px 215px 0px 215px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us {
+  width: 270px;
 }
 
 /* text main */
@@ -110,19 +161,30 @@ a {
   line-height: 1.71;
   color: var(--grey-text-color);
 }
-
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
 /* section */
 .section-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin: 0px 0px 50px 0px;
 }
 
 /* workers */
 .b-color {
   background: #f5f4fa;
-  padding: 60px 0px 20px;
 }
+
+.team-card {
+  background-color: #fefefe;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+}
+
 .name {
   font-style: normal;
   font-weight: 500;
@@ -155,7 +217,11 @@ a {
   line-height: 1.87;
   color: var(--grey-text-color);
 }
-
+.touch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .touch1 {
   border: none;
   font-family: Roboto;
@@ -165,7 +231,7 @@ a {
   line-height: 1.6;
   letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
-  margin: 8px;
+  margin: 0px 4px 0px 4px;
   cursor: pointer;
 }
 
@@ -179,6 +245,21 @@ a {
 .touch1:focus {
   background-color: var(--accent-color);
   color: var(--main-text-color);
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio-cards {
+  margin-bottom: 30px;
+}
+
+.cards-text {
+  padding: 20px 24px 20px 24px;
+  border: solid #eeeeee;
+  border-top: none;
 }
 
 .button {
@@ -195,10 +276,28 @@ a {
   cursor: pointer;
 }
 
+.button-hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  padding: 10px 32px 10px 32px;
+  margin: 30px 0px 0px;
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 /* footer */
 .down {
   background: #2f303a;
-  padding: 60px 0px 20px;
+  padding: 60px 215px 51px 215px;
+}
+
+.hidden {
+  display: none;
 }
 
 .down-logo {
@@ -209,6 +308,14 @@ a {
   line-height: 1.19;
   text-decoration: none;
   cursor: none;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-link {
+  margin-bottom: 9px;
 }
 
 .d-auth:hover,
