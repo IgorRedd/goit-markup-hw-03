@@ -20,6 +20,12 @@ img {
   display: block;
 }
 
+.container-all {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   padding: 94px 215px 94px 215px;
 }
@@ -245,6 +251,7 @@ img {
   padding: 6px 22px 6px 22px;
   margin: 0px 4px 0px 4px;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .touch1 {
@@ -257,6 +264,8 @@ img {
 .touch1:focus {
   background-color: var(--accent-color);
   color: var(--main-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -300,6 +309,7 @@ img {
   color: var(--main-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 /* footer */
