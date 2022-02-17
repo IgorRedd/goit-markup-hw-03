@@ -72,6 +72,11 @@ img {
   padding-left: 215px;
 }
 
+.header-2 {
+  border-bottom: 2px solid;
+  border-color: #ececec;
+}
+
 /* nav */
 .site-nav {
   display: flex;
