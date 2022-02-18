@@ -20,14 +20,10 @@ img {
   display: block;
 }
 
-.container-main {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
-  padding: 94px 215px 94px 215px;
+  max-width: 1170px;
+  padding: 94px 0px 94px 0px;
+  margin: 0px auto;
 }
 
 .web-blue {
@@ -73,9 +69,11 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
-  padding-right: 215px;
+  /* padding-right: 215px; */
   padding-bottom: 25px;
-  padding-left: 215px;
+  /* padding-left: 215px; */
+  max-width: 1170px;
+  margin: 0px auto;
 }
 
 .header-2 {
@@ -154,9 +152,11 @@ img {
   text-align: center;
 }
 
-.services {
-  padding: 94px 215px 0px 215px;
-}
+/* .services {
+  max-width: 1170px;
+  padding: 94px 0px 94px 0px;
+  margin: 0px auto;
+} */
 
 .about {
   display: flex;
