@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding: 0px 15px 0px 15px;
   margin: 0px auto;
 }
@@ -112,10 +112,10 @@ img {
 
 .h-left {
   display: block;
-  margin: 0px 50px 0px 0px;
+  padding: 0px 50px 0px 0px;
 }
 .h-retreat {
-  padding: 32px 0px 32px 0px;
+  margin: 32px 0px 32px 0px;
 }
 
 /* address */
@@ -165,9 +165,11 @@ img {
   width: 270px;
   margin-right: 30px;
 }
+
 .about-us:nth-child(4n) {
   margin-right: 0px;
 }
+
 .not {
   margin: 0px;
 }
@@ -236,6 +238,15 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
+
+.touch-one {
+  margin-right: 8px;
+}
+
+.touch-one:nth-child(5n) {
+  margin-right: 0px;
+}
+
 .touch1 {
   border: none;
   font-family: Roboto;
@@ -245,7 +256,6 @@ img {
   line-height: 1.6;
   letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
-  margin: 0px 4px 0px 4px;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -345,7 +355,7 @@ img {
 /* footer */
 .down {
   background: #2f303a;
-  padding: 60px 215px 51px 215px;
+  padding: 60px 0px;
 }
 
 .hidden {
@@ -373,6 +383,10 @@ img {
 
 .footer-link {
   margin-bottom: 9px;
+}
+
+.footer-link:nth-child(3n) {
+  margin-bottom: 0px;
 }
 
 .d-auth:hover,
