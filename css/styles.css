@@ -112,13 +112,11 @@ img {
 
 .h-block {
   display: block;
+  padding: 32px 0px 32px 0px;
 }
 
 .h-left {
   margin-right: 50px;
-}
-.h-retreat {
-  padding: 32px 0px 32px 0px;
 }
 
 /* address */
